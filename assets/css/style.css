@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,400&family=Signika:wght@300;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+    
+}
+
+body{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding:0 50px;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.navbar .logo img{
+    width: 90px;
+}
+
+nav{
+    margin-right: 30%;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav li a{
+    color:darkgreen;
+}
+
+.icon i{
+    font-size:25px;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col-2{
+    flex-basis: 50%;
+}
+
+.container .box{
+    width:460px;
+    height: 460px;
+    margin-top:20px;
+    margin-left: 80px;
+    position: relative;
+    border: none;
+}
+
+.container  .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left: 0;
+    mix-blend-mode: screen;
+    border: none;
+
+}
+
+.container .box video{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    object-fit: cover;
+}
+
+.col-2 h1{
+    font-size:3rem ;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.col-2 span{
+    font-size: 8rem;
+    margin-left: 40px !important;
+    font-weight: bold;
+}
+
+.button{
+    margin-top:20px !important;
+    background-color: darkgreen;
+    padding:10px 20px;
+    color:white;
+    border: none;
+}
